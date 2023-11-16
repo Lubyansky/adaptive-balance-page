@@ -1155,12 +1155,10 @@ footer {
   border-color: #FFFFFF;
 }
 
-.footer__app {
+.footer__app-desc {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-}
-.footer__app:not(.footer__app:first-child) {
   margin-left: 8px;
 }
 
