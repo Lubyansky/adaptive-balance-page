@@ -1156,10 +1156,12 @@ footer {
 }
 
 .footer__app {
-  margin-left: 8px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+}
+.footer__app:not(.footer__app:first-child) {
+  margin-left: 8px;
 }
 
 .footer__docs {
