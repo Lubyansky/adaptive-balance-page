@@ -1,0 +1,96 @@
+@import "_fonts";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Graphik LCG';
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+main{
+    width: 100%;
+    display: block;
+}
+
+img {
+	border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+
+.container{
+    margin: 0px 30px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    @media (max-width: 600px){
+        margin: 0px 15px;
+    }
+}
+
+.dropdown-icon{
+    fill: #000000;
+    transition: transform 0.2s;
+    path { 
+        fill: inherit;
+    }
+}
+
+@import "_buttons";
+@import "_header";
+@import "_hero";
+@import "_main-item";
+@import "_cta";
+@import "_footer";

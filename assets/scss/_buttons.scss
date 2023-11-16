@@ -1,0 +1,61 @@
+.button{
+    min-height: 42px;
+
+    padding: 12px 20px;
+    border-radius: 4px;
+
+    background-color: rgb(255, 255, 255);
+
+    font-family: 'Graphik LCG';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+
+    &:hover{
+        background-color: rgb(92, 91, 91);
+    }
+
+    &.green{
+        background-color: rgba(0, 192, 100, 1);
+        color: #FFFFFF;
+
+        &:hover{
+            background-color: rgba(16, 178, 101, 1);
+        }
+    }
+
+    &.white{
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(5, 21, 52, 1);
+        border: rgba(5, 21, 52, 0.3) 1px solid;
+        &:hover{
+            background-color: rgba(248, 248, 248, 1);
+        }
+    }
+
+    &.blue{
+        background-color: rgba(15, 143, 249, 1);
+        color: #FFFFFF;
+        &:hover{
+            background-color: rgba(0, 114, 236, 1);
+        }
+    }
+
+    &.large{
+        min-height: 60px;
+        padding: 18px 28px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    &.hero__button{
+        @media (max-width: 600px){
+            min-height: 42px;
+            padding: 12px 20px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+
+}
